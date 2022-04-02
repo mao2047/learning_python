@@ -1,0 +1,8 @@
+#! /bin/zsh
+
+vared -p 'enter article: ' -c a;
+python2 sep.py $a;
+vared -p 'enter name: ' -c b;
+mv out.html $b.html;
+unset a;
+unset b

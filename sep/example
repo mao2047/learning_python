@@ -1,0 +1,2 @@
+sudo python2 sep.py https://plato.stanford.edu/entries/plato/
+pandoc -t latex --pdf-engine=xelatex -f html -o Plato.pdf out.html
