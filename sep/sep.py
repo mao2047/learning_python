@@ -7,7 +7,8 @@
 
 import requests
 from lxml import html
-import urlparse
+#import urlparse
+import urllib.parse
 import sys
 import validators
 
